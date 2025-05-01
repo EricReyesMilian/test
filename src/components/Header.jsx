@@ -3,16 +3,16 @@ const Header = ({ cartCount }) => {
       <header className="header">
         <div className="container">
           <a href="#" className="logo">
-            <img src="/src/assets/images/logo.png" alt="iAccess Logo" />
+            <img src="/src/assets/images/logo.png" alt="Logo" />
           </a>
-          <nav>
+          {/* <nav>
             <ul>
               <li><a href="#inicio">Inicio</a></li>
               <li><a href="#productos">Productos</a></li>
               <li><a href="#nosotros">Nosotros</a></li>
               <li><a href="#contacto">Contacto</a></li>
             </ul>
-          </nav>
+          </nav> */}
           <div className="cart">
             <i className="fas fa-shopping-cart"></i>
             <span className="cart-count">{cartCount}</span>
