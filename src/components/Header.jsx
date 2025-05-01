@@ -3,7 +3,7 @@ const Header = ({ cartCount }) => {
       <header className="header">
         <div className="container">
           <a href="#" className="logo">
-            <img src="/src/assets/images/logo.png" alt="Logo" />
+            <img src="/src/assets/logo.png" alt="Logo" />
           </a>
           {/* <nav>
             <ul>
