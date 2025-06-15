@@ -1,0 +1,41 @@
+.mensajeria-section{
+    background-color: orange;
+    color: white;
+    overflow: hidden;
+}
+.mensajeria-section .container{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+}
+.infoMens{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    bottom: 100px;
+    background-color: orange;
+    box-shadow: 0 0 30px 30px orange;
+    padding: 20px;
+}
+.titleMens
+{
+    color: White;
+    text-align: center;
+    font-size: 3.0rem;
+    position: absolute;
+    font-weight: 900;
+    padding: 10px 10px;
+}
+.bici{
+    width: 350px;
+    rotate: 7deg;
+    top: 45px;
+    left: -10px;
+    height: 350px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/src/assets/bicicleta.png');
+}

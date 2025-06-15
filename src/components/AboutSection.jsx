@@ -1,3 +1,6 @@
+import '../styles/About.css';
+import '../styles/App.css';
+
 const AboutSection = () => {
     return (
       <section id="nosotros" className="about-section">
@@ -8,6 +11,7 @@ const AboutSection = () => {
             Ofrecemos productos de la más alta calidad para proteger y mejorar tu experiencia con tu iPhone.
           </p>
         </div>
+        <div className="lines"></div>
       </section>
     )
   }
